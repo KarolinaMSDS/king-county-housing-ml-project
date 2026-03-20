@@ -12,14 +12,25 @@ The comparison between models shows:
 | Linear Regression | Highly interpretable baseline model |
 | Random Forest | Captures nonlinear relationships |
 | Tuned Random Forest | Best predictive performance after hyperparameter optimization |
+<p align="left">
+  <img src="model_comparison_table.png" width="80%">
+</p>
 
 While linear regression provides useful interpretability, the Random Forest model is able to capture complex interactions between housing characteristics.
+
+<p align="left">
+  <img src="predicted_vs_actual.png" width="50%">
+</p>
 
 For practical price prediction tasks, the **tuned Random Forest model is the preferred model**.
 
 ### Interpreting Feature Importance
 
 The Random Forest feature importance analysis highlights the variables that most influence housing prices.
+
+<p align="left">
+  <img src="feature_importance.png" width="60%">
+</p>
 
 The most important predictors include:
 
@@ -36,7 +47,7 @@ This analysis has several limitations:
 - The dataset represents only one year of housing sales.
 - Some potentially important features such as school districts or neighborhood amenities are missing.
 
-## Project Summary
+## Modeling
 
 - Built an end-to-end housing price prediction pipeline on King County data (20k+ records), using Linear Regression and Random Forest with cross-validated hyperparameter tuning (GridSearchCV).
 
