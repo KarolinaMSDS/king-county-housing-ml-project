@@ -1,6 +1,11 @@
 # king-county-housing-ml-project
 Machine learning project for housing price prediction (regression) and condition classification using Python, pandas, scikit-learn, Linear Regression, Logistic Regression, Random Forest, and GridSearchCV, with feature engineering, data preprocessing, cross-validation,  and model evaluation (RMSE, MAE, R², ROC-AUC).
 
+## Impact & Applications
+
+This project shows how machine learning can be used to predict housing prices using real-world data. The tuned Random Forest model outperformed linear regression, indicating that nonlinear relationships and feature interactions are important in housing price prediction. **Feature importance analysis showed that living area, construction quality (grade), location, and waterfront access were the strongest drivers of price. These results illustrate how data-driven models can support pricing decisions, property valuation, and real estate investment analysis.**
+
+
 ## Model Interpretation and Final Recommendation
 
 After evaluating several models, the tuned Random Forest model produced the strongest predictive performance.
